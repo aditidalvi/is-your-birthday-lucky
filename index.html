@@ -39,6 +39,7 @@
             font-family: 'Rubik';
             font-weight: lighter;
             font-size: large;
+            cursor: pointer;
         }
         input{
             padding: 1rem;
@@ -63,6 +64,27 @@
         }
         footer{
             padding: 0rem 2rem;
+            font-size: small;
+        }
+        footer img{
+            width:2.5%;
+            padding: 0.5rem;
+        }
+
+        
+
+        @media screen and (max-width:700px) {
+            footer img{
+                width:8.5%;
+            }
+            footer{
+                font-size: x-small;
+            }
+            section{
+                width:80%;
+                font-size: small;
+            }
+            
         }
     </style>
 </head>
@@ -87,12 +109,19 @@
     
     
             <div id="output"></div>
-            <section>
-               <strong>Privacy Notice:</strong> We are not storing your data!!
+            <section id="privacy">
+               <strong>Privacy Notice:</strong> We are not storing your data!!<button onclick="show1()" style="display: inline; padding: 0.1rem 0.2rem; width:10%; font-size: small; cursor: pointer; ">x</button>
             </section>
             <br/>
+           <br/>
+          <footer>
+            <a href="https://github.com/aditidalvi"><img src="https://img.icons8.com/ios-glyphs/60/000000/github.png"/></a>
+            <a href="https://www.linkedin.com/in/aditi-dalvi-a797b41b2"><img src="https://img.icons8.com/ios-glyphs/60/000000/linkedin.png"/></a>
+            <a href="https://aditidalvi.netlify.app/"> <img src="https://img.icons8.com/ios-glyphs/60/000000/portfolio.png"/></a>
            
-          
+            <hr>
+            <p>&copy;2021 | aditidalvi | <a href="#output" style="text-decoration: none; color: black;" onclick="show2()">Privacy Policy </a></p>
+          </footer>
            
         </div>
        

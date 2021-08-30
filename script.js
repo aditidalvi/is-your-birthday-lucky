@@ -17,6 +17,13 @@ function clickEventHandlers(){
     }
 }
 
+function show1(){
+    document.getElementById('privacy').style.display = "none";
+}
+
+function show2(){
+    document.getElementById('privacy').style.display = "block";
+}
 
 
 function clickEventHandler(){
