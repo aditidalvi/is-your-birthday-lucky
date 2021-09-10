@@ -45,10 +45,10 @@ function clickEventHandler(){
     console.log(sum);
     
     if(number.value == sum){
-        output.innerText = "Yayy!! Your birthday is lucky"
+        output.innerText = "Yayy!! Your birthday is lucky 🥳"
     }
     else{
-        output.innerText = "Oops!! Your birthday is not lucky number!!"
+        output.innerText = "Oops!! Your birthday is not lucky number!! ☹️"
     }
     
 }
